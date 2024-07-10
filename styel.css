@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: rgb(80, 85, 85);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    text-decoration: none;
+    color: rgb(190, 190, 190);
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.8em;
+}
+
+.navie a {
+    color: rgb(190, 190, 190);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding-left: 30px;
+    transition: 0.7s ease;
+    display: inline-block;
+}
+
+.navie a:hover {
+    color: rgb(58, 58, 58);
+    font-size: 1.7em;
+}
+
+section {
+    padding: 100px 20px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/istockphoto-1448124439-2048x2048.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 20px;
+    text-align: center;
+}
+
+.main h2 {
+    color: white;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #313131;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.main h3 {
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn {
+    text-decoration: none;
+    color: white;
+    background-color: #3a6cf4;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover {
+    background-color: #0a49f6;
+    transform: scale(1.1);
+}
+
+.sociel-icons a {
+    color: white;
+    font-size: 1.7em;
+    padding-right: 30px;
+    transition: 0.7s ease;
+}
+
+.sociel-icons a:hover {
+    transform: scale(1.1);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #3a6cf4;
+    font-size: 2.2em;
+    font-style: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 100%;
+    max-width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 0.5);
+    margin: 15px;
+    padding: 25px;
+    transition: 0.7s ease;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    color: gray;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: gray;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.projects {
+    background-color: #000016;
+}
+
+.projects .content {
+    margin-top: 30px;
+}
+
+.project-card {
+    background-color: white;
+    border: 4px solid rgb(61, 61, 61);
+    min-height: 14em;
+    width: 100%;
+    max-width: 23em;
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.1);
+}
+
+.project-card:hover .project-image {
+    opacity: 0.9;
+}
+
+.project-image img {
+    width: 100%;
+}
+
+.project-info {
+    padding: 1em;
+}
+
+.project-category {
+    font-size: 2em;
+    color: #000016;
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.byu-thispackage {
+    text-decoration: none;
+    color: gray;
+}
+
+.byu-thispackage:hover {
+    color: black;
+}
+
+.contact .icon {
+    font-size: 4.5em;
+}
+
+.contact .info h3 {
+    color: black;
+}
+
+.contact .info p {
+    font-size: 1.5em;
+}
+
+.footer {
+    background-color: rgb(80, 85, 85);
+    color: antiquewhite;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.social-icons2 a {
+    font-size: 3em;
+    color: white;
+    margin: 1;
+    padding-right: 30px;
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span {
+    color: black;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    header {
+        padding: 10px 100px;
+    }
+
+    section {
+        padding: 100px 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px 50px;
+    }
+
+    .main {
+        padding: 20px;
+    }
+
+    .navie a {
+        padding-left: 20px;
+    }
+
+    .main h2 span {
+        font-size: 2.5em;
+    }
+
+    .main h3 {
+        font-size: 1.5em;
+    }
+
+    .main-btn {
+        font-size: 1em;
+        padding: 0.8em 1.8em;
+    }
+
+    .sociel-icons a {
+        font-size: 1.5em;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    header {
+        padding: 10px 20px;
+        flex-direction: column;
+    }
+
+    .navie {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .navie a {
+        padding-left: 0;
+        padding-bottom: 10px;
+    }
+
+    .main h2 {
+        font-size: 1.2em;
+    }
+
+    .main h2 span {
+        font-size: 2em;
+    }
+
+    .main h3 {
+        font-size: 1.2em;
+    }
+
+    .main-btn {
+        font-size: 0.9em;
+        padding: 0.7em 1.5em;
+    }
+
+    .sociel-icons a {
+        font-size: 1.3em;
+        padding-right: 15px;
+    }
+
+    .title {
+        font-size: 1.8em;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 100%;
+        margin: 15px 0;
+    }
+
+    .project-card {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-title {
+        margin-bottom: 10px;
+    }
+}
